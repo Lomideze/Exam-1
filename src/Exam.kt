@@ -47,7 +47,7 @@ class Exam {
             val num = 100
             var sum = 0
 
-            for (i in 0..num step 2) {
+            for (i in 0 until num step 2) {
                 sum += i
             }
 
